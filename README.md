@@ -10,6 +10,13 @@ Hema Sankaran
 The objective of the project is to gather and analyze health care data related to COVID 19 and hospital bed utilization related to the pandemic. The research will look at various data sources and look at COVID 19 severity, hospitalization, and mortality versus various factors to assess correlation.
 
 ***
+Data sets used:
+1. Countywise COVID confirmed, death 
+2. US Hospital bed Capacity
+3. Potential Increase in Hopital bed capacity in response to the pandemic
+
+
+
 #Potential Factors to Consider: 
 
 Age
