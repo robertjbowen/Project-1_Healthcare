@@ -41,7 +41,10 @@ kaggle.com
 Novel Corona Virus 2019 Dataset
 
 ***
-Datasets used : https://catalog.data.gov/dataset/conditions-contributing-to-deaths-involving-coronavirus-disease-2019-covid-19-by-age-group-7ee07
+Datasets used : 
+https://catalog.data.gov/dataset/conditions-contributing-to-deaths-involving-coronavirus-disease-2019-covid-19-by-age-group-7ee07
+https://covid19.who.int/?gclid=Cj0KCQjwlvT8BRDeARIsAACRFiXRQTh6KPvvoyRnHRADbqEQmjmoHkUJsBwZJhVMfodvDyJ1tw_SsJ8aAnClEALw_wcB
+
 Here is a comparison of mortality due to COVID in the World countries and US cities
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/World-wide%20Cases%20Vs.%20Deaths.png)
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/US%20Cases%20Vs.%20Deaths.png)
