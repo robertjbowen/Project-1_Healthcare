@@ -1,4 +1,5 @@
 # Health Care Analysis - COVID-19 Pandemic U.S. and Chicago, IL
+# 30 October 2020
 
 ## Project Group:
 
