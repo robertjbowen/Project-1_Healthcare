@@ -68,8 +68,39 @@ Further analysis might be able to prove if some COVID deaths are misleadingly ca
 
 
 Michelle's Analysis Goes Here
+Coronavirus Impact on the Women and Men of Chicago
+As I began to explore Chicago data I wanted to know how many male vs female deaths were from COVID; 58.7% which I found interesting since per Robs analysis, more females get tested but more males die from it.
+Output/COVID Deaths by Gender.JPG 
+Project-1_Healthcare/Output/COVID Deaths by Gender.JPG 
 
-***
+ 
+
+Coronavirus Impact on Ethnic Backgrounds in Chicago
+Next, I looked at number of deaths by race for the Chicago data. Blacks died at a much higher rate than whites and Latino were also very high.  Further analysis would be needed to understand why?  Is there a higher population of black people or is there some other underlying reason? 
+Project-1_Healthcare/Output/Comparision of Covid Deaths by Race.jpg
+ 
+ 
+
+
+Coronavirus Impact on Different Age Groups in Chicago
+Project-1_Healthcare/Output/Comparison of COVID Cases by Age Group.png
+
+ 
+Project-1_Healthcare/Output/Comparision of Covid Deaths to Hospitalizations by Age Group.JPG
+
+ 
+
+
+Coronavirus Impact on Different Age Groups in Chicago
+When I first charted all cases by age group, I didn’t like how this looked so I wanted to see which age groups had the most cases.  I split it out the age groups. 
+
+Coronavirus Impact on Different Age Groups in Chicago
+Here are all the charts split out by highest cases.  I kept the y axis max limit the same so you can clearly see the distinction and so that I did not distort or mis represent the data.
+ 
+Finally, I looked at the total cases for Chicago.  Coronavirus Impact on Chicago in 2020
+ 
+
+
 
 ## US Utilization of Hosiptal Beds Analysis
 For my analysis I chose to focus on the utlilzation of hosiptal beds in the United States Pre COVID19 pandemic and current COVID-19 pandemic. For my initial analysis I imported the Pre COVID19 bed dataset, provided by kaggle. Then later improted current COVID19 dataset, provided by the CDC.
