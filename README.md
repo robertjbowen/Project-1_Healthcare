@@ -69,27 +69,21 @@ Next, I looked at number of deaths by race for the Chicago data. Blacks died at 
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/Output/Comparision of Covid Deaths by Race.jpg)
  
  
-
-
-Coronavirus Impact on Different Age Groups in Chicago
-Project-1_Healthcare/Output/Comparison of COVID Cases by Age Group.png
+## Coronavirus Impact on Different Age Groups in Chicago
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/Output/Comparison of COVID Cases by Age Group.png)
 
  
-Project-1_Healthcare/Output/Comparision of Covid Deaths to Hospitalizations by Age Group.JPG
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/Output/Comparision of Covid Deaths to Hospitalizations by Age Group.JPG)
 
- 
-
-
-Coronavirus Impact on Different Age Groups in Chicago
+ ## Coronavirus Impact on Different Age Groups in Chicago
 When I first charted all cases by age group, I didn’t like how this looked so I wanted to see which age groups had the most cases.  I split it out the age groups. 
 
-Coronavirus Impact on Different Age Groups in Chicago
+## Coronavirus Impact on Different Age Groups in Chicago
 Here are all the charts split out by highest cases.  I kept the y axis max limit the same so you can clearly see the distinction and so that I did not distort or mis represent the data.
  
 Finally, I looked at the total cases for Chicago.  Coronavirus Impact on Chicago in 2020
  
-
-
+***
 
 ## US Utilization of Hosiptal Beds Analysis
 For my analysis I chose to focus on the utlilzation of hosiptal beds in the United States Pre COVID19 pandemic and current COVID-19 pandemic. For my initial analysis I imported the Pre COVID19 bed dataset, provided by kaggle. Then later improted current COVID19 dataset, provided by the CDC.
