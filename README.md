@@ -75,6 +75,7 @@ Michelle's Analysis Goes Here
 For my analysis I chose to focus on the utlilzation of hosiptal beds in the United States Pre COVID19 pandemic and current COVID-19 pandemic. For my initial analysis I imported the Pre COVID19 bed dataset, provided by kaggle. Then later improted current COVID19 dataset, provided by the CDC.
 
 URL for pre pandemic - https://www.kaggle.com/ikiulian/global-hospital-beds-capacity-for-covid19
+
 URL for current - https://www.cdc.gov/nhsn/covid19/report-patient-impact.html#anchor_1587406852
 
 ### Data:
@@ -82,7 +83,7 @@ Pre-COVID19 Bed Data
 Import Dependencies
 Import US Pre Pandemic Bed Data File
 Create a bar chart to see the Number of ICU Beds & Bed Utilization in the United States
-Increase Figure Size
+
 
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture1.png)
 Note:This graph is showing the utilization of hosiptal beds in the United States pre covid-19
