@@ -71,7 +71,42 @@ Michelle's Analysis Goes Here
 
 ***
 
-Sydney's Analysis Goes Here
+## US Utilization of Hosiptal Beds Analysis
+For my analysis I chose to focus on the utlilzation of hosiptal beds in the United States Pre COVID19 pandemic and current COVID-19 pandemic. For my initial analysis I imported the Pre COVID19 bed dataset, provided by kaggle. Then later improted current COVID19 dataset, provided by the CDC.
+
+URL for pre pandemic - https://www.kaggle.com/ikiulian/global-hospital-beds-capacity-for-covid19
+URL for current - https://www.cdc.gov/nhsn/covid19/report-patient-impact.html#anchor_1587406852
+
+### Data:
+Pre-COVID19 Bed Data
+Import Dependencies
+Import US Pre Pandemic Bed Data File
+Create a bar chart to see the Number of ICU Beds & Bed Utilization in the United States
+Increase Figure Size
+
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture1.png)
+Note:This graph is showing the utilization of hosiptal beds in the United States pre covid-19
+
+Current COVID19 Current Data
+Import Dependencies
+Import CDC Pandemic Data File
+Get rid of unnecessary columns
+
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture2.png)
+Note:This graph will look at the number of patients in an inpatient care location who have suspected or confirmed COVID-19, percent estimate (percent of inpatient beds)
+
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture3.png)
+Note:This graph will look at hospitals inpatient beds availability, a rough estimate
+
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture4.png)
+Note:This graph will look at hospitals ICU beds availability, a rough estimate
+
+Question: ICU Bed Capacity has an impact on COVID deaths?
+
+Null Hypothesis: If deaths are correlated to bed capcity, then there will be no positive correlation.
+
+Alternative Hypothesis: If deaths are correlatd to bed capcity, then there will be a strong negative correlation.
+
 
 ***
 
