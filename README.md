@@ -66,10 +66,12 @@ As I began to explore Chicago data I wanted to know how many male vs female deat
 
  ## Coronavirus Impact on Ethnic Backgrounds in Chicago
 Next, I looked at number of deaths by race for the Chicago data. Blacks died at a much higher rate than whites and Latino were also very high.  Further analysis would be needed to understand why?  Is there a higher population of black people or is there some other underlying reason? 
+
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/Output/Comparision%20of%20Covid%20Deaths%20by%20Race.jpg)
  
  
 ## Coronavirus Impact on Different Age Groups in Chicago
+
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/Output/Comparison%20of%20COVID%20Cases%20by%20Ag%20Group.png)
 
  
