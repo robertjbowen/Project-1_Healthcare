@@ -93,12 +93,15 @@ Import CDC Pandemic Data File
 Get rid of unnecessary columns
 
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture2.png)
+
 Note:This graph will look at the number of patients in an inpatient care location who have suspected or confirmed COVID-19, percent estimate (percent of inpatient beds)
 
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture3.png)
+
 Note:This graph will look at hospitals inpatient beds availability, a rough estimate
 
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture4.png)
+
 Note:This graph will look at hospitals ICU beds availability, a rough estimate
 
 Question: ICU Bed Capacity has an impact on COVID deaths?
