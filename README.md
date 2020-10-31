@@ -22,25 +22,7 @@ The objective of the project is to gather and analyze health care data related t
 ***
 Link to Presentation: https://docs.google.com/presentation/d/1WZ_C9_m_zsvUAcY7eJCIjkzEN12qB_KzJiu4WtmJOsg/edit?usp=sharing
 ***
-Introduction of Analysis from Briefing Goes Here
-#Data Sources:
 
-(Data availability will influence scope and factor selection)
-
-Potential data sources
-
-Data.CDC.gov
-
-covidcaremap.org
-US Hospital Facility Bed Capacity Map | CovidCareMap
-
-coronavirus-resources.esri.com
-Definitive Healthcare: USA Hospital Beds
-
-kaggle.com
-Novel Corona Virus 2019 Dataset
-
-***
 Datasets used : 
 https://catalog.data.gov/dataset/conditions-contributing-to-deaths-involving-coronavirus-disease-2019-covid-19-by-age-group-7ee07
 https://covid19.who.int/?gclid=Cj0KCQjwlvT8BRDeARIsAACRFiXRQTh6KPvvoyRnHRADbqEQmjmoHkUJsBwZJhVMfodvDyJ1tw_SsJ8aAnClEALw_wcB
