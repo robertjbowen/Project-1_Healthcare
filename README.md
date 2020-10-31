@@ -67,7 +67,7 @@ One-way (one factor) ANOVA with Python results:
 F_onewayResult(statistic=10.800911913621759, pvalue=6.4228242186118545e-12)
 After the analysis, we conclude that the results are statistically significant.)
 Further analysis might be able to prove if some COVID deaths are misleadingly categorized as Influenza and Pneumonia or respiratory failures
-![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/US%20Cases%20Vs.%20Deaths.png)
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/Number%20of%20COVID%20deaths%20by%20Condition.png)
 
 
 Michelle's Analysis Goes Here
