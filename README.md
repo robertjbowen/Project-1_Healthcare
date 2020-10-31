@@ -68,7 +68,7 @@ URL example - https://data.cityofchicago.org/resource/naz8-j4nc.json
 ### Data Cleaning:
 We merged the datasets based on "date". The first two weeks of data from 1-13 March 2020 had significant missing data elements. The data is updated daily and runs to the present day, but there is a lag in reporting in most data elements so the last week of the dataset was also unusable. The final cleaned and merged dataset was saved as chicago_data.csv.I used this dataset for all of my analysis calculations.
 
-insert chicago case, hosp death chart
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/BowenPicture1.png)
 
 ### Data Viewing:
 When viewing the raw testing data it it is apparent that availability/ utilization of weekend and holiday testing is much lower or the resuts are not tabulated until the following workday with creates a significant "saw-tooth" effect which carries over to the daily COVID-19 positivity results. To improve the appearance of the data I created a copy of the dataset with all values transformed to a 7-day rolling average. I named this data file rolling_AVG.csv. This data set was only used for display purposes.
