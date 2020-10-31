@@ -22,26 +22,15 @@ The objective of the project is to gather and analyze health care data related t
 ***
 Link to Presentation: https://docs.google.com/presentation/d/1WZ_C9_m_zsvUAcY7eJCIjkzEN12qB_KzJiu4WtmJOsg/edit?usp=sharing
 ***
-Introduction of Analysis from Briefing Goes Here
-#Data Sources:
 
-(Data availability will influence scope and factor selection)
+Datasets used : 
+https://catalog.data.gov/dataset/conditions-contributing-to-deaths-involving-coronavirus-disease-2019-covid-19-by-age-group-7ee07
+https://covid19.who.int/?gclid=Cj0KCQjwlvT8BRDeARIsAACRFiXRQTh6KPvvoyRnHRADbqEQmjmoHkUJsBwZJhVMfodvDyJ1tw_SsJ8aAnClEALw_wcB
+https://www.kaggle.com/fireballbyedimyrnmom/us-counties-covid-19-dataset
 
-Potential data sources
-
-Data.CDC.gov
-
-covidcaremap.org
-US Hospital Facility Bed Capacity Map | CovidCareMap
-
-coronavirus-resources.esri.com
-Definitive Healthcare: USA Hospital Beds
-
-kaggle.com
-Novel Corona Virus 2019 Dataset
-
-***
-
+Here is a comparison of mortality due to COVID in the World countries and US cities
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/World-wide%20Cases%20Vs.%20Deaths.png)
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/US%20Cases%20Vs.%20Deaths.png)
 ANOVA of death grouped by a set of 7 underlying respiratory conditions.
 This analysis is done using 'Cause of death in the US population observed in samples between the Feb 1 2020 to Oct 25 2020'.
 Question:
@@ -64,17 +53,49 @@ One-way (one factor) ANOVA with Python results:
 F_onewayResult(statistic=10.800911913621759, pvalue=6.4228242186118545e-12)
 After the analysis, we conclude that the results are statistically significant.)
 Further analysis might be able to prove if some COVID deaths are misleadingly categorized as Influenza and Pneumonia or respiratory failures
-
-
-
-Michelle's Analysis Goes Here
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/Number%20of%20COVID%20deaths%20by%20Condition.png)
 
 ***
+
+## Coronavirus Impact on the Women and Men of Chicago
+As I began to explore Chicago data I wanted to know how many male vs female deaths were from COVID; 58.7% which I found interesting since per Robs analysis, more females get tested but more males die from it.
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/Output/COVID Deaths by Gender.JPG) 
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/Output/COVID Deaths by Gender.JPG) 
+
+ 
+
+ ## Coronavirus Impact on Ethnic Backgrounds in Chicago
+Next, I looked at number of deaths by race for the Chicago data. Blacks died at a much higher rate than whites and Latino were also very high.  Further analysis would be needed to understand why?  Is there a higher population of black people or is there some other underlying reason? 
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/Output/Comparision of Covid Deaths by Race.jpg)
+ 
+ 
+
+
+Coronavirus Impact on Different Age Groups in Chicago
+Project-1_Healthcare/Output/Comparison of COVID Cases by Age Group.png
+
+ 
+Project-1_Healthcare/Output/Comparision of Covid Deaths to Hospitalizations by Age Group.JPG
+
+ 
+
+
+Coronavirus Impact on Different Age Groups in Chicago
+When I first charted all cases by age group, I didn’t like how this looked so I wanted to see which age groups had the most cases.  I split it out the age groups. 
+
+Coronavirus Impact on Different Age Groups in Chicago
+Here are all the charts split out by highest cases.  I kept the y axis max limit the same so you can clearly see the distinction and so that I did not distort or mis represent the data.
+ 
+Finally, I looked at the total cases for Chicago.  Coronavirus Impact on Chicago in 2020
+ 
+
+
 
 ## US Utilization of Hosiptal Beds Analysis
 For my analysis I chose to focus on the utlilzation of hosiptal beds in the United States Pre COVID19 pandemic and current COVID-19 pandemic. For my initial analysis I imported the Pre COVID19 bed dataset, provided by kaggle. Then later improted current COVID19 dataset, provided by the CDC.
 
 URL for pre pandemic - https://www.kaggle.com/ikiulian/global-hospital-beds-capacity-for-covid19
+
 URL for current - https://www.cdc.gov/nhsn/covid19/report-patient-impact.html#anchor_1587406852
 
 ### Data:
@@ -82,7 +103,7 @@ Pre-COVID19 Bed Data
 Import Dependencies
 Import US Pre Pandemic Bed Data File
 Create a bar chart to see the Number of ICU Beds & Bed Utilization in the United States
-Increase Figure Size
+
 
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture1.png)
 Note:This graph is showing the utilization of hosiptal beds in the United States pre covid-19
@@ -90,15 +111,17 @@ Note:This graph is showing the utilization of hosiptal beds in the United States
 Current COVID19 Current Data
 Import Dependencies
 Import CDC Pandemic Data File
-Get rid of unnecessary columns
 
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture2.png)
+
 Note:This graph will look at the number of patients in an inpatient care location who have suspected or confirmed COVID-19, percent estimate (percent of inpatient beds)
 
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture3.png)
+
 Note:This graph will look at hospitals inpatient beds availability, a rough estimate
 
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture4.png)
+
 Note:This graph will look at hospitals ICU beds availability, a rough estimate
 
 Question: ICU Bed Capacity has an impact on COVID deaths?
