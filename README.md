@@ -90,7 +90,6 @@ Note:This graph is showing the utilization of hosiptal beds in the United States
 Current COVID19 Current Data
 Import Dependencies
 Import CDC Pandemic Data File
-Get rid of unnecessary columns
 
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture2.png)
 
