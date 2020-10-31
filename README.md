@@ -40,9 +40,30 @@ Novel Corona Virus 2019 Dataset
 
 ***
 
-Hema's Analysis Goes Here
+ANOVA of death grouped by a set of 7 underlying respiratory conditions.
+This analysis is done using 'Cause of death in the US population observed in samples between the Feb 1 2020 to Oct 25 2020'.
+Question:
+Are existing respiratory conditions significant contributor to COVID mortality ? 
 
-***
+Note: In this ANOVA, 'conditions' is the independent variable. We  consider 7 conditions including COVID.
+Our sample sizes are the app. same, i.e. the number of observations with each of the conditions are the app. same.
+
+General ANOVA Hypotheses:
+
+Null hypotheses: (Groups means are equal (no variation in means of groups))
+RespiratoryConditions == RespiratoryCondition 
+Existing respiratory conditions equally affect survival of patient upon getting affected with COVID
+
+Alternative hypotheses: At least, one group mean is different from other groups
+RespiratoryCondition =/= RespiratoryCondition 
+Atleast one Existing respiratory condition might affect the patient fatally
+
+One-way (one factor) ANOVA with Python results: 
+F_onewayResult(statistic=10.800911913621759, pvalue=6.4228242186118545e-12)
+After the analysis, we conclude that the results are statistically significant.)
+Further analysis might be able to prove if some COVID deaths are misleadingly categorized as Influenza and Pneumonia or respiratory failures
+
+
 
 Michelle's Analysis Goes Here
 
