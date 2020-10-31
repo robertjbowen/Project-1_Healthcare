@@ -73,7 +73,7 @@ Next, I looked at number of deaths by race for the Chicago data. Blacks died at 
  
 ## Coronavirus Impact on Different Age Groups in Chicago
 
-![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/Output/Comparison%20of%20COVID%20Cases%20by%20Ag%20Group.png)
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/Output/Comparision%20of%20Covid%20Deaths%20to%20Hospitalizations%20by%20Age%20Group.JPG)
 
  
 ![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/Output/Comparision%20of%20Covid%20Deaths%20by%20Age%20Group.jpg)
