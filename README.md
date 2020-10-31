@@ -20,6 +20,8 @@ The objective of the project is to gather and analyze health care data related t
 4. Complicating Risk Factors
 
 ***
+Link to Presentation: https://docs.google.com/presentation/d/1WZ_C9_m_zsvUAcY7eJCIjkzEN12qB_KzJiu4WtmJOsg/edit?usp=sharing
+***
 Introduction of Analysis from Briefing Goes Here
 #Data Sources:
 
@@ -40,15 +42,71 @@ Novel Corona Virus 2019 Dataset
 
 ***
 
-Hema's Analysis Goes Here
+ANOVA of death grouped by a set of 7 underlying respiratory conditions.
+This analysis is done using 'Cause of death in the US population observed in samples between the Feb 1 2020 to Oct 25 2020'.
+Question:
+Are existing respiratory conditions significant contributor to COVID mortality ? 
 
-***
+Note: In this ANOVA, 'conditions' is the independent variable. We  consider 7 conditions including COVID.
+Our sample sizes are the app. same, i.e. the number of observations with each of the conditions are the app. same.
+
+General ANOVA Hypotheses:
+
+Null hypotheses: (Groups means are equal (no variation in means of groups))
+RespiratoryConditions == RespiratoryCondition 
+Existing respiratory conditions equally affect survival of patient upon getting affected with COVID
+
+Alternative hypotheses: At least, one group mean is different from other groups
+RespiratoryCondition =/= RespiratoryCondition 
+Atleast one Existing respiratory condition might affect the patient fatally
+
+One-way (one factor) ANOVA with Python results: 
+F_onewayResult(statistic=10.800911913621759, pvalue=6.4228242186118545e-12)
+After the analysis, we conclude that the results are statistically significant.)
+Further analysis might be able to prove if some COVID deaths are misleadingly categorized as Influenza and Pneumonia or respiratory failures
+
+
 
 Michelle's Analysis Goes Here
 
 ***
 
-Sydney's Analysis Goes Here
+## US Utilization of Hosiptal Beds Analysis
+For my analysis I chose to focus on the utlilzation of hosiptal beds in the United States Pre COVID19 pandemic and current COVID-19 pandemic. For my initial analysis I imported the Pre COVID19 bed dataset, provided by kaggle. Then later improted current COVID19 dataset, provided by the CDC.
+
+URL for pre pandemic - https://www.kaggle.com/ikiulian/global-hospital-beds-capacity-for-covid19
+URL for current - https://www.cdc.gov/nhsn/covid19/report-patient-impact.html#anchor_1587406852
+
+### Data:
+Pre-COVID19 Bed Data
+Import Dependencies
+Import US Pre Pandemic Bed Data File
+Create a bar chart to see the Number of ICU Beds & Bed Utilization in the United States
+Increase Figure Size
+
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture1.png)
+Note:This graph is showing the utilization of hosiptal beds in the United States pre covid-19
+
+Current COVID19 Current Data
+Import Dependencies
+Import CDC Pandemic Data File
+Get rid of unnecessary columns
+
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture2.png)
+Note:This graph will look at the number of patients in an inpatient care location who have suspected or confirmed COVID-19, percent estimate (percent of inpatient beds)
+
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture3.png)
+Note:This graph will look at hospitals inpatient beds availability, a rough estimate
+
+![alt tag](https://github.com/hema2575/Project-1_Healthcare/blob/main/images/WilliamsPicture4.png)
+Note:This graph will look at hospitals ICU beds availability, a rough estimate
+
+Question: ICU Bed Capacity has an impact on COVID deaths?
+
+Null Hypothesis: If deaths are correlated to bed capcity, then there will be no positive correlation.
+
+Alternative Hypothesis: If deaths are correlatd to bed capcity, then there will be a strong negative correlation.
+
 
 ***
 
