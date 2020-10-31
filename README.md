@@ -1,4 +1,4 @@
-#Health Care Analysis - COVID-19 Pandemic U.S. and Chicago, IL
+# Health Care Analysis - COVID-19 Pandemic U.S. and Chicago, IL
 
 ## Project Group:
 
